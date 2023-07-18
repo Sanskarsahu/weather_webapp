@@ -1,0 +1,52 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> wheather app</title>
+    <link rel="stylesheet" href="./style.css"/>
+</head>
+<body id="body">
+    <div class="container">
+        <div class="top">
+       <div class="search">
+        
+        <input type="text" placeholder="enter the city hear" class="search-text" id="cityname"><button id="search-btn"><img src="/images/search-icon.png" alt="search"></button>
+       </div>
+      <div class="errmsg">
+        <p id="err"></p>
+       </div>
+       </div>
+       <div id="weather">
+       <div class="icon" >
+        <img src=".images/clear.png" alt="" id="icons">
+        <h1 id="temp">
+            25°C
+        </h1>
+        <h2 id="city">
+            city
+        </h2>
+       </div>
+       <div class="bottom">
+        <div class="humuidty">
+            <img src=".images/humidity.png" alt="">
+            <h3 id="humid">
+                25%
+                <p>HUMIDITY</p>
+            </h3>
+            
+        </div>
+        <div class="wind">
+            <img src="./images/wind.png" alt="">
+            <h3 id="wind">
+                50 KM/HR
+                <p>WIND</p>
+            </h3>
+        </div>
+       </div>
+
+    </div>
+   </div>
+    <script src="./app.js"></script>
+</body>
+</html>
